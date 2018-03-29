@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定位和居中</title>
+    <style>
+        .container{
+
+        }
+        .core{
+            width: 400px;
+            height: 200px;
+            background-color: #9f9f9f;
+
+            position:absolute;
+            left:50%;    /* 定位父级的50% */
+            top:50%;
+            transform: translate(-50%,-50%); /*自己的50% */
+        }
+        .quarter{
+            width: 50px;
+            height: 50px;
+            background-color: #FC0;
+            position: absolute;
+        }
+        .q1{
+            top: 0;
+            left: 0;
+            border-bottom-right-radius: 100%;
+        }
+        .q2{
+            bottom: 0;
+            right: 0;
+            border-top-left-radius: 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="core">
+        <div class="quarter q1">
+
+        </div>
+        <div class="quarter q2">
+
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>

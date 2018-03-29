@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>html基础</title>
+    <style>
+        .background{
+            background-color: #dedede;
+        }
+
+        .header{
+            background-color: #696969;
+        }
+        .logo{
+            height: 60px;
+            width: 120px;
+        }
+        .nav{
+            float: right;
+        }
+        .nav li{
+            float: left;
+            margin-left: 30px;
+        }
+        .article{
+            background-color: white;
+            margin: 20px;
+            box-shadow: 5px 5px #9f9f9f;
+            padding: 30px;
+        }
+        .tab1 th{
+            background-color: black;
+            color: white;
+            text-align: left;
+        }
+        .lastrow{
+            background-color: #999
+        }
+
+
+
+        .firsttitle{
+            font-size: 160%;
+            color: black;
+        }
+        .secondtitle{
+            font-size: 110%;
+            color: #675c47;
+        }
+        .authortitle{
+            font-size: 80%;
+            color: #675c47;
+        }
+
+        .tab2 tr{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .tab2 th{
+            width: 230px;
+            height: 30px;
+
+        }
+        .fright{
+            text-align: right;
+            padding-right: 20px;
+        }
+        .fleft{
+            text-align: left;
+
+        }
+
+        .bigbutton{
+            background-color: blue;
+            color: white;
+            font-size: 25px;
+            height:60px;
+            width:100%;
+            border-radius: 15px;
+        }
+
+
+        .image1{
+            border: solid 1px;
+            width: 150px;
+
+            /*display: table-cell;*/
+            /*vertical-align: middle;*/
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .image1 img{
+            height: 50px;
+
+            width: 80%;
+
+
+        }
+        .image1 p{
+            text-align: center;
+            width: 150px;
+        }
+        .footer{
+            text-align: center;
+            background-color:black ;
+            height: 50px;
+            color: white;
+
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+    </style>
+</head>
+<body class="background">
+<header class="header">
+    <img src="../images/bd.png"  class="logo">
+    <ul class="nav">
+            <li><a href="">导航链接1</a></li>
+            <li><a href="">导航链接1</a></li>
+            <li><a href="">导航链接1</a></li>
+            <li><a href="">导航链接1</a></li>
+    </ul>
+</header>
+
+
+
+<div class="article">
+<h2 class="firsttitle">文章一级标题</h2>
+<h2 class="secondtitle">文章二级标题</h2>
+<p class="authortitle">文章作者 文章发表时间</p>
+<p>
+    这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落
+
+    这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落有个加粗字体这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落 <a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a> 这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落
+</p>
+<img src="../images/1.jpg" alt="" width="500px" height="300px">
+</div>
+
+<div class="article">
+<h1 class="firsttitle">另一篇文章的一级标题</h1>
+<h2 class="secondtitle">文章二级标题</h2>
+<p class="authortitle">文章作者 文章发表时间</p>
+<p>
+    这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落,这是一个很长很长的段落
+
+    这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落有个加粗字体这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落 <a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a> 这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落
+</p>
+<img src="../images/1.jpg" alt="" width="500px" height="300px">
+<div>
+    <ul>
+        <li>列表项目1</li>
+        <li>列表项目1</li>
+        <li>列表项目1</li>
+        <li>列表项目1</li>
+    </ul>
+</div>
+
+
+</div>
+
+<div class="article">
+<h1 class="firsttitle">图片</h1>
+
+    <div class="image1">
+
+        <p>好看的图片</p>
+        <img src="../images/1.jpg" alt="" width="500px" height="300px">
+    </div>
+    <div class="image1">
+        <p>好看的图片</p>
+        <img src="../images/1.jpg" alt="" width="500px" height="300px">
+    </div>
+    <div class="image1">
+        <p>好看的图片</p>
+        <img src="../images/1.jpg" alt="" width="500px" height="300px">
+    </div>
+    <div class="image1">
+        <p>好看的图片</p>
+        <img src="../images/1.jpg" alt="" width="500px" height="300px">
+    </div>
+
+</div>
+
+<div class="article">
+<h1 class="firsttitle">最后一级标题</h1>
+<h2 class="secondtitle">文章二级标题</h2>
+<p  class="authortitle">文章作者 文章发布时间</p>
+<div>
+    <ol>
+        <li>排名1</li>
+        <li>排名1</li>
+        <li>排名1</li>
+    </ol>
+</div>
+
+<p>这是一个表格，给表格添加border</p>
+<div>
+    <table border="1px" width="100%" class="tab1">
+        <tbody>
+            <tr>
+                <th>表头</th>
+                <th>表头</th>
+                <th>表头</th>
+            </tr>
+            <tr>
+                <td>表内容单元格</td>
+                <td>表内容单元格</td>
+                <td><a href="#">操作</a></td>
+            </tr>
+            <tr>
+                <td>表内容单元格</td>
+                <td>表内容单元格</td>
+                <td><a href="#">操作</a></td>
+            </tr>
+            <tr>
+                <td>表内容单元格</td>
+                <td>表内容单元格</td>
+                <td><a href="#">操作</a></td>
+            </tr>
+            <tr>
+                <td>表内容单元格</td>
+                <td>表内容单元格</td>
+                <td><a href="#">操作</a></td>
+            </tr>
+
+            <tr class="lastrow">
+                <td>总计</td>
+                <td colspan="2">1000</td>
+
+            </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+
+
+<div class="article">
+
+
+<h1>这里以后是一个侧边栏</h1>
+<div class="juzhong">
+    <form action="post">
+        <table width="100%" class="tab2">
+            <tbody>
+                <tr>
+                    <th class="fright"><label >请输入邮箱地址</label></th>
+                    <th class="fleft"><input  type="text" placeholder="请输入邮箱" ></input></th>
+                </tr>
+                <tr>
+                    <th class="fright"><label >请输入密码</label></th>
+                    <th class="fleft"><input type="password" placeholder="请输入密码" ></input></th>
+                </tr>
+                <tr>
+                    <th class="fright"><label >请再次输入密码</label></th>
+                    <th class="fleft"><input type="password" placeholder="请再次输入密码" ></input></th>
+                </tr>
+
+
+                <tr>
+                    <th class="fright"><label >性别</label></th>
+                    <th class="fleft">
+                        <input type="radio" value="0" name="sex">男
+                        <input type="radio" value="1" name="sex">女
+                    </th>
+                </tr>
+                <tr>
+                    <th class="fright"> <label >城市</label></th>
+                    <th class="fleft">
+                        <select name="city" id="city">
+                        <option value="0">北京</option>
+                        <option value="1">上海</option>
+                        <option value="2">深圳</option>
+                        <option value="3">广州</option>
+                        </select>
+                    </th>
+                </tr>
+                <tr>
+                    <th class="fright"><label>爱好</label></th>
+                    <th class="fleft"><input type="checkbox">运动
+                        <input type="checkbox">艺术
+                        <input type="checkbox">科学
+                        <input type="checkbox">技术
+                    </th>
+                </tr>
+                <tr>
+                    <th class="fright"><label >个人描述</label></th>
+                    <th class="fleft"><textarea name="" id="" cols="50" rows="5" placeholder="这是个文本输入框，可以自动换行"></textarea></th>
+                </tr>
+                <tr>
+                    <th colspan="2"><input type="button" value="提交" class="bigbutton"></th>
+
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</div>
+</div>
+
+<div class="footer">
+    <p class="footer_text">
+        版权所有
+    </p>
+</div>
+</body>
+</html>
+
+
+
+
+
+
